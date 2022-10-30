@@ -1,0 +1,60 @@
+
+            body { 
+                background: rgb(255, 255, 255); 
+                color: rgb(255, 208, 0); 
+                padding: 50px; 
+                display: flex;
+                 align-items: center;
+              justify-content: center;
+                font-family: sans-serif; 
+            }
+            .contenu {
+                width:700px;
+                height:500px;
+                background-color:#1e1d19;
+                margin: 0px auto;
+              border-radius: 15px;
+                border: solid;
+                box-shadow: 0 5px 10px rgb(217, 206, 2);
+                padding: 15px;
+                overflow-y: auto;
+                display: flex;
+                flex-direction: column ;
+                }
+            .tache{
+                height:40px;
+                width:300px;
+                border: solid thin;
+                border-radius: 5px;
+            }
+
+            button{
+                background: #dabd1900;
+                color: rgb(216, 203, 14);
+                border: 1px rgb(255, 255, 245);
+                border-radius: 5px;
+                text-shadow:none;
+                }
+
+            h1{
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif; 
+            }
+            
+            h2{
+                color: rgb(255, 255, 255);
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;  
+            }
+
+            taches { 
+                  color: rgb(228, 20, 20); 
+                font-size: 40px; }
+            
+                .barre {
+                    text-decoration: line-through;
+                }
+
+
+           
+    

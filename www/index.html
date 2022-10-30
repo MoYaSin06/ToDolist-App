@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>TodoListApp</title>
+        <link rel="stylesheet" href="css/index.css" />
+
+        
+    </head>
+    <body>
+
+        <center>
+            <h1>TodoList APP</h1>
+
+         <br>
+
+        <div class="contenu" >
+            <br>
+            <br>
+            <form>
+                <input class="tache" type="text" id="tache"/>
+            </form>
+            <br>
+            <button class="button" id="add">Ajouter Tâche</button>
+            <br>
+            <br>
+            <button class="button" onclick='window.location.reload(false)'>Rafraichir </button>
+            <br>
+            <br>
+            <h2>Tâches en Cours</h2>
+
+            <div id="taches">
+            </div>
+
+            <div id="fini">
+                <h2>Tâches Finies</h2>
+            </div>
+        </div>
+        </center>
+
+
+        <script src="https://code.jquery.com/jquery-1.12.3.js"   integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc=" crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
